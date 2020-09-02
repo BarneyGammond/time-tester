@@ -18,7 +18,7 @@ export default ({id, videoLink, onVideoEnd, showRef}) => {
                 key={videoLink}
                 controls preload="auto">
 
-                <source src={`time-tester/videos/${videoLink}`} type="video/mp4"/>
+                <source src={`/videos/${videoLink}`} type="video/mp4"/>
 
             </video>
         </div>
